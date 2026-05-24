@@ -8,7 +8,7 @@ pipeline {
         // The ID of the username/password credential stored in Jenkins
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
         // Your Docker Hub username
-        DOCKERHUB_USERNAME       = 'prashik536'
+        DOCKERHUB_USERNAME       = 'pranayyy123'
         // The name of the Docker repository
         IMAGE_NAME               = 'bike-backend'
         // Create a unique image tag using the build number
@@ -20,7 +20,7 @@ pipeline {
         // The ID of the SSH Username with Private Key credential stored in Jenkins
         DEPLOY_SSH_CREDENTIALS_ID = 'ec2-ssh-key'
         // Public IP or DNS of the remote EC2 instance where Docker is installed
-        DEPLOY_HOST               = '172.31.38.31'
+        DEPLOY_HOST               = '172.31.31.240'
 
         // ==========================================
         // 3. SECURE CONFIGURATION (CREDENTIALS)
